@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: #000000;
+  margin: 0;
+}
+
+
+/* Nav bar styling */
+.topnav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #00479890;
+  border-radius: 0px ;
+  align-items: center;
+  position: relative;
+}
+
+.topnav a{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+
+input{
+  padding: 10px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  border: 0;
+  color: rgb(0, 0, 0);
+}
+
+input::placeholder{
+  color: rgb(0, 0, 0);
+}
+
+#section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card{
+  width: 290px;
+  height: auto;
+  padding: 19px;
+  background-color: #000000a3;
+  color: white;
+  margin: 10px;
+  border-radius: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+.thumbnail{
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+#title{
+  text-align: center;
+}
+
